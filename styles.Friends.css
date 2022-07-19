@@ -1,0 +1,58 @@
+/* background color for the page */
+body {
+    background-color: gold;
+}
+/* This styles the top text of the page */
+.TopSection{
+    text-align: center;
+    font-size:30px;
+    background-color: gold;
+
+}
+/* This styles the image on the page */
+img {
+    border-radius: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+/* This styles the middle paragraph */
+.MiddleSection{
+    text-align: center;
+    background-color: gold;
+/* Next three CSS pieces are for the table that is on the page  */
+}
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 110%;
+  }
+  tr:nth-child(even) {
+    background-color: rgb(89, 78, 240);
+  }
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+/* Next three CSS pieces are for the links to the other pages */
+  dl {
+
+    text-align: center;
+    list-style-type: none;
+    background-color: gold;
+    font-size: 200%;
+}
+dt {
+    display: inline;
+}
+a {
+    padding: 80px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold;
+}

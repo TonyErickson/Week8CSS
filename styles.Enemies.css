@@ -1,0 +1,130 @@
+/* color of the whole page */
+body {
+    background-color: black;
+}
+/* css for the picture of bowser and bowser jr */
+img.img1 {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+
+  }
+/* css for the 'Mario Enemies header' */
+  h1{
+    color: red;
+    font-family: serif;
+    font-size: 300%;
+    text-align:center;
+    border-style: dashed;
+    background-color: black;
+  }
+  /* Text for the information on bowser and bowser jr */
+  .BowserSection {
+    text-align: center;
+    color: red;
+    background-color: black;
+    font-size: large;
+    font: bolder;
+}  
+.Koopalings {
+    text-align: center;
+    color: rgb(255, 13, 13);
+    background-color: rgb(63, 215, 241);
+    font-size: large;
+    font: bolder;
+  }
+  /* The next 5 pieces of css for the text to pull down when the cursor is on the pic of the koopalings */
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;   
+  }
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(63, 215, 241);
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    transition: .5s ease;
+  }
+  .container:hover .overlay {
+    bottom:0;
+    height: 100%
+  }
+  .Text {
+    white-space: nowrap;
+    color: rgb(255, 13, 13);;
+    font-size: 50px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font: medium;
+  }
+  /* CSS for Bowsers minions using an ID */
+h3 {
+  text-align: center;
+  font-size: x-large;
+}
+/* Next 5 pieces of CSS for the bowser names (a list) */
+.Minions {
+    text-align: center;
+    font:bolder;
+    font-size: larger;
+    color: rgb(247, 222, 3);
+
+  }
+  ul.MinList {
+    display: inline-block;
+    text-align: left;
+    border-style: dashed
+  }
+  ul {
+    column-count: 8;
+    text-align: center;
+    font: bold;
+}
+.MinList {
+    color: gold;
+    font-size: 125%;
+}
+
+  img.img3 {
+    border-radius: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+  } 
+
+/* Next three CSS pieces are for the links to the other pages */
+  dl {
+
+    text-align: center;
+    list-style-type: none;
+    background-color: whitesmoke;
+    font-size: 200%;
+}
+dt {
+    display: inline;
+}
+a {
+    padding: 80px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold;
+}
